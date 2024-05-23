@@ -1,0 +1,12 @@
+dist/
+*.egg-info
+.vs/
+/bin/
+.pyenv
+log.txt
+.vscode
+__pycache__/
+/__pycache__/
+*.7z
+*.zip
+*.png
