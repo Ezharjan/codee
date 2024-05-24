@@ -11,7 +11,12 @@
     username = your_user_name
     password = YOUR_API_TOKEN
    ```
-5. Make sure you have the correct `setup.py` file.
+5. Make sure you have the correct `setup.py` file. The file must be correct so as to be correctly installed.
 6. `pip install twine`
 7. `python setup.py sdist`
-8. `twine upload dist/*`
+8. Check if the packaged built is properly usable locally via:
+   ```
+   pip install dist/package_name.tar.gz
+   # commands to test your package
+   ```
+9. `twine upload dist/*` to upload and publish.
